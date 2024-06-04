@@ -1,0 +1,17 @@
+Package: move2ch
+Title: Convert tracking data into encounter history
+Version: 1.0.0
+Authors@R:
+  person("Steffen", "Oppel", , "steffen.oppel@vogelwarte.ch", role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-8220-3789"))
+Description: This tool downloads tracking data from Movebank and then creates an encounter history to facilitate survival analysis.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    lubridate,
+    magrittr,
+    move2,
+    tidyr
